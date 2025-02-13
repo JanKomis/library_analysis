@@ -1,0 +1,4 @@
+library_analysis/
+dataset/*
+personal_notes.txt
+**/__pycache__/
