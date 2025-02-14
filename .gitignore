@@ -1,4 +1,7 @@
 library_analysis/
-dataset/*
+dataset/cleaned/*
+!dataset/cleaned/.gitkeep
+dataset/origin/*
+!dataset/origin/.gitkeep
 personal_notes.txt
 **/__pycache__/
