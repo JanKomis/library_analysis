@@ -1,4 +1,5 @@
 library_analysis/
-dataset/*
+dataset/cleaned/*
+dataset/origin/*
 personal_notes.txt
 **/__pycache__/
