@@ -3,5 +3,7 @@ dataset/cleaned/*
 !dataset/cleaned/.gitkeep
 dataset/origin/*
 !dataset/origin/.gitkeep
+dataset/to_sql/*
+!dataset/to_sql/.gitkeep
 personal_notes.txt
 **/__pycache__/
