@@ -38,3 +38,4 @@ def contain_lang(pandas_series):
         )
 
     return pandas_series.apply(is_valid_language).astype(bool)
+
