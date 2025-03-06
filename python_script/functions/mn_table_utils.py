@@ -29,9 +29,9 @@ def create_mn_table(input_df, id_column, key_column):
     exploded_df = df.explode(key_column)
 
     exploded_df.reset_index(drop=True, inplace=True)
-    exploded_df.insert(0, 'unique_id', range(1, len(exploded_df) + 1))
 
-    final_df = exploded_df[['unique_id', id_column, key_column]].rename(
-    columns={'unique_id': 'id', id_column: 'main_id', key_column: f'{key_column}_id'})
+    final_df = exploded_df[[id_column, key_column]].rename(
+        columns={id_column: 'main_id', 
+                 key_column: f'{key_column}_id'})
 
     return final_df
