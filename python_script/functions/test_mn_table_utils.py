@@ -11,7 +11,6 @@ from mn_table_utils import create_mn_table
         'id',
         'keys',
         pd.DataFrame({
-            'id': [],
             'main_id': [],
             'keys_id': []
         })
@@ -24,7 +23,6 @@ from mn_table_utils import create_mn_table
         'id',
         'keys',
         pd.DataFrame({
-            'id': [1, 2],
             'main_id': [1, 1],
             'keys_id': ['X', 'Y']
         })
